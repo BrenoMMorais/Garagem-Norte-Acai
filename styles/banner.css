@@ -1,0 +1,45 @@
+.principal__banner {
+    padding: 1.5em;
+    text-align: center;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
+
+.banner__titulo {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+
+.banner__texto {
+    font-weight: 500;
+    padding-bottom: 2em;
+}
+
+.banner__botão {
+    padding: 0.5em 3em;
+    background-color: var(--cor-quaternaria);
+    border: 1px solid var(--cor-quaternaria);
+    border-radius: 24px;
+    color: var(--cor-secundariaterciaria);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .principal__banner {
+        padding: 3em;
+    }
+    
+    .banner__titulo {
+        font-size: 20px;
+        padding-bottom: 2em;
+    }
+
+    .banner__texto {
+        font-size: 18px;
+        padding-bottom: 3em;
+    }
+}

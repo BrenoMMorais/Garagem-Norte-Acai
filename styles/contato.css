@@ -1,0 +1,33 @@
+.principal__contato {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    text-align: center;
+    padding: 2em;
+}
+
+.contato__titulo {
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+
+.contato__container {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.contato__imagem {
+    max-width: 50px;
+}
+
+.contato__botão {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid var(--cor-quinaria);
+    background-color: var(--cor-quaternaria);
+    padding: 1em 3em;
+    border-radius: 24px;
+}

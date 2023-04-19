@@ -1,0 +1,21 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 300;
+}
+
+.rodape__imagem {
+    max-width: 200px;
+    padding: 2em 5em
+}
+
+.rodape__titulo {
+    color: var(--cor-primaria);
+    padding-bottom: 1em;
+}
+
+.rodape__texto {
+    color: var(--cor-primaria);
+    padding-bottom: 1em;
+}

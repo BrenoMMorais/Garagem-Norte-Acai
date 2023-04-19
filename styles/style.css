@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url("cabecalho.css");
+@import url("banner.css");
+@import url("produtos.css");
+@import url("contato.css");
+@import url("diferenciais.css");
+@import url("rodape.css");
+
+
+:root {
+    --cor-primaria: #DFDDC3;
+    --cor-secundaria:#660066;
+    --cor-terciaria: #111111;
+    --cor-quaternaria: #A7C04C;
+    --cor-quinaria: #454545;
+    --fonte-primaria: 'Roboto';
+}
+
+body{
+    background: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+    color: var(--cor-terciaria);
+    font-weight: 400;
+}

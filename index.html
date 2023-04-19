@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garagem Norte Açai</title>
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botão">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__item">
+                        <a href="index.html" class="lista-menu__link">Home</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#produtos" class="lista-menu__link">Produtos</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#contato" class="lista-menu__link">Contato</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#diferenciais" class="lista-menu__link">Diferenciais</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#sobre" class="lista-menu__link">Sobre</a>
+                    </li>
+                </ul>
+            <img src="img/logo.svg" class="container__logotipo" alt="Logo da Garagem Norte Açaí">
+            <h1 class="container__titulo">O melhor <b class="container__titulo--negrito">Açaí</b></h1>
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Menu Informativo</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="index.html" class="lista-menu__link">Home</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#produtos" class="lista-menu__link">Produtos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#contato" class="lista-menu__link">Contato</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#diferenciais" class="lista-menu__link">Diferenciais</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#sobre" class="lista-menu__link">Sobre</a>
+                </li>
+            </ul>
+    </header>
+
+    <main class="principal">
+        <section class="principal__banner">
+            <h1 class="banner__titulo">Já sabe o que vai pedir?</h1>
+            <h2 class="banner__texto">Escolha como turbinar o seu Açaí!!</h2>
+            <a href="#produtos" class="banner__botão">Produtos</a>
+        </section>
+
+        <section class="principal__produtos">
+            <div class="produtos__valores">
+                <img src="img/acai.svg" class="produtos__imagem" alt="Dois copos de Açaí">
+                <div class="produtos__titulo-lista">
+                    <h1 class="produtos__titulo"><a name="produtos">Em nossa Garagem temos os Carros Chefe:</a></h1>
+                    <ul class="produtos__lista">
+                        <li class="lista__item">Fusca 300ml ------- R$ 08,00</li>
+                        <li class="lista__item">Opala 400ml -------- R$ 10,00</li>
+                        <li class="lista__item">Maverick 500ml ----- R$ 12,00</li>
+                        <li class="lista__item">Busão 700ml --------R$ 15,00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="produto__acompanhamentos-imagem">
+                <img src="img/acai2.svg" class="produtos__imagem" alt="Tres copos de Açaí">
+                <div class="produto__acompanhamentos">
+                    <h1 class="produtos__titulo">Você pode turbinar seu carro a vontade!!</h1>
+                    <p class="produtos__frutas-titulo">Cheirinho de Frutas</p>
+                    <div class="produtos__frutas">
+                        <h3 class="produto__fruta">Banana</h3>
+                        <h3 class="produto__fruta">Morango</h3>
+                    </div>
+                    <div class="produtos__complementos">
+                        <div class="produtos__aditivos">
+                            <p class="produtos__texto">Aditivos</p>
+                            <ul class="produtos__lista">
+                                <li class="lista__itens">Ovomaltine</li>
+                                <li class="lista__itens">Granola</li>
+                                <li class="lista__itens">Confete</li>
+                                <li class="lista__itens">Leite Ninho</li>
+                                <li class="lista__itens">Paçoca</li>
+                                <li class="lista__itens">Amendoim</li>
+                            </ul>
+                        </div>
+                        <div class="produtos__oleos">
+                            <p class="produtos__texto">Óleos Lubrificantes</p>
+                            <ul class="produtos__lista">
+                                <li class="lista__itens">Leite Condensado</li>
+                                <li class="lista__itens">Doce de Leite</li>
+                                <li class="lista__itens">Chocolate</li>
+                                <li class="lista__itens">Morango</li>
+                                <li class="lista__itens">Mel</li>
+                                <li class="lista__itens">Creme de avelã*</li>
+                                <p class="lista__item-informe">*Adicional por R$ 02,00.
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="principal__contato">
+                <h2 class="contato__titulo"><a name="contato">Gostou? Entre em contato conosco!!</a></h2>
+                <div class="contato__container">
+                    <img src="img/whatsapp.svg" class="contato__imagem" alt="Logo do Whatsapp">
+                    <a href="https://wa.me/556198666965" target="_blank" class="contato__botão">Whatsapp</a>
+                </div>
+        </section>
+
+        <section class="principal__diferenciais">
+            <h2 class="diferenciais__titulo"><a name="diferenciais">Por que escolher o Garagem Norte Açaí Artesanal?</a></h2>
+            <p class="diferenciais__texto">Além da qualidade dos itens adicionais, nosso açaí é feito a partir da polpa, o que garante um sabor original e sem aditivos de açucares prejudiciais a saúde na composição do produto. Contamos também com uma gama de produtos adicionais que deixam o Açaí a sua cara. E claro, trazemos conosco a nossa marca registrada, uma pincelada mecanica nessa obra complexa. Nossa temática de garagem traz um vislumbre da visão do Criador do Garagem Norte Açaí Artesanal, pois assim se começam grandes empresas, dentro da nossa Garagem!!!</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <a name="sobre"><img src="img/logo.svg" class="rodape__imagem" alt="Logo do Garagem Norte Açaí Artesanal"></a>
+            <h2 class="rodape__titulo">&copy; Todos os Direitos Reservados</h2>
+            <h3 class="rodape__texto">Site desenvolvido e Publicado por Breno Machado Morais.</h3>
+        </div>
+
+    </footer>
+</body>
+</html>

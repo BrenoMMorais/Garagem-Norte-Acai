@@ -1,0 +1,104 @@
+.principal__produtos {
+    background-color: var(--cor-primaria);
+    display: flex;
+    flex-direction: column;
+}
+
+.produtos__titulo {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em;
+    text-align: center;
+    color: var(--cor-secundaria);
+}
+
+.produtos__lista {
+    padding-bottom: 2em;
+}
+
+.lista__item {
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 0.4;
+}
+
+.lista__itens {
+    font-weight: 500;
+    text-align: left;
+    padding-bottom: 0.2em;
+    padding-left: 1.3em;
+}
+
+.produtos__imagem {
+    width: 60%;
+    padding-left: 5em;
+}
+
+.produtos__complementos {
+    display: flex;
+    justify-content: center;
+    padding: 0 2em;
+    gap: 2em
+}
+
+.produtos__frutas-titulo {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.produtos__frutas {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 1em 0 3em 0;
+    font-weight: 500;
+}
+
+.produtos__texto {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.lista__item-informe {
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--cor-quinaria);
+    padding-left: 1.5em;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .produtos__valores {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8em;
+    }
+
+    .produtos__imagem {
+        max-width: 300px;
+        padding: 0;
+    }
+
+    .lista__item {
+        text-align: left;
+        padding: 0.5em 3em;
+    }
+
+    .produto__acompanhamentos-imagem {
+        padding-top: 3em;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 8em;
+    }
+
+    .lista__itens {
+        padding-bottom: 0.5em;
+    }
+
+
+}
